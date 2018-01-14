@@ -1,0 +1,143 @@
+<html>
+
+<head>
+    <title>Strategic Digital Defense, LLC: Defending What Matters Most</title>
+    <style>
+        #top {
+            position: static;
+            top: 0px;
+        }
+        
+        .top_left {
+            position: absolute;
+            float: left;
+            width: 75%;
+        }
+        
+        .top_right {
+            position: absolute;
+            float: right;
+            width: 25%;
+        }
+        
+        #Navigate {
+            position: static;
+            width: 100%;
+            float: unset;
+        }
+        
+        #main {
+            position: static;
+            width: 100%;
+            float: unset;
+        }
+        
+        a.section_navigation {
+            display: table-cell;
+            padding: 5px;
+            color: white;
+            background-color: black;
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+        }
+        
+        a.section_navigation:hover {
+            color: black;
+            background-color: white;
+        }
+        
+        div.disapearing_reapearing {
+            visibility: hidden;
+            position: absolute;
+            width: 100%;
+        }
+        
+        #footer {
+            height: 10%;
+            width: 100%;
+            position: fixed;
+            bottom: 0px;
+        }
+    </style>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <script language="text/javascript" type="text/javascript">
+        function expose_section(to_show) {
+            var sections = ["index", "services", "about", "leadership", "contact"];
+            sections.forEach(function hide_section(tohide) {
+                document.getElementById(tohide).style.visibility =
+                    "hidden";
+            });
+            document.getElementById(to_show).style.visibility = "visible";
+        }
+    </script>
+</head>
+
+<body>
+    <div id="top">
+        <div style="width:75%; float:left;">
+            <h1>Strategic Digital Defense, LLC: Defending What Matters Most</h1>
+        </div>
+        <div style="width: 25%; float:right;">
+            <img height="100px" src="logo_SDD.png" style="float:right;" />
+        </div>
+    </div>
+    <div id="Navigate">
+        <div style="display:table-row;">
+            <a class="section_navigation" href="#" onclick='expose_section("index")'>Home</a>
+            <a class="section_navigation" href="#" onclick='expose_section("services")'>Services</a>
+            <a class="section_navigation" href="#" onclick='expose_section("about")'>About Us</a>
+            <a class="section_navigation" href="#" onclick='expose_section("leadership")'>Our Leadership</a>
+            <a class="section_navigation" href="#" onclick='expose_section("contact")'>Contact Us</a>
+        </div>
+        <hr />
+    </div>
+    <div id="main">
+        <div class="disapearing_reapearing" id="index" style="visibility:visible;">
+            <p>Strategic Digital Defense, LLC is your trusted advisor for the defense of your brand, the protection of your customers' most sensitive information and guarding your firm's irreplaceable competitive advantage.</p>
+            <p>Nobody is the expert in what differentiates your firm from all the rest like you are. Strategic Digital Defense helps you do what you do best, confident in the safety of the information that your organization depends on.</p>
+        </div>
+        <div class="disapearing_reapearing" id="services">
+            <h2>Services Offered By Strategic Digital Defense, LLC</h2>
+            <hr />
+            <ul>
+                <li>Security Analysis and Executive Briefing</li>
+                <li>Cybersecurity Architecture</li>
+                <li>Solution Implementation and Maintenance</li>
+                <li>Process Refinement</li>
+            </ul>
+        </div>
+        <div class="disapearing_reapearing" id="about">
+            <h2>About Strategic Digital Defense, LLC</h2>
+            <hr />
+            <p>Strategic Digital Defense is a cybersecurity and counter-espionage consulting firm. We specialize in business-focused solutions to manage risk associated with loss or compromise of information.</p>
+            <br />
+            <p>Strategic Digital Defense brings top talent from industry, national defense and technology to help you defend what matters most.</p>
+        </div>
+        <div class="disapearing_reapearing" id="leadership">
+            <h2>Strategic Digital Defense, LLC Leadership</h2>
+            <hr />
+            <p>Strategic Digital Defense is led by David T. Klein, Chief Architect and General Manager.</p>
+            <br />
+            <p>David is a cybersecurity architect and counter-espionage consultant. He specializes in how cryptography and cryptographic assets and technologies fit into the core business of the client organization, and the lifecycle surrounding these resources.
+            </p>
+            <br />
+            <p>David brings five years of experience in designing, deploying and managing cryptographic assets and technologies. These assets include cryptographic keys and certificates. The technologies include hardware bulk encryptors (hardware security
+                modules and encryption servers), Enterprise Key and Certificate Management Systems and PKI.</p>
+            <br />
+            <p>With ten years of experience at USAA, the world-class financial services firm, and consulting engagements including a Fortune 100 international airline, David brings best-in-class tools, techniques and leadership to help you defend what matters
+                most.</p>
+        </div>
+        <div class="disapearing_reapearing" id="contact">
+            <h2>Contact Us</h2>
+            <hr />Contact
+            <a href="mailto:sales@StrategicDigitalDefense.com">Sales</a>to engage Strategic Digital Defense, LLC.</div>
+    </div>
+    <div id="footer" onload='expose_section("index")'>
+        <hr />&copy; 2018, Strategic Digital Defense, LLC
+        <br />
+        <div style="text-align: center;">CYBERSECURITY ARCHITECTURE, CRYPTOGRAPHY AND COUNTERESPIONAGE</div>
+    </div>
+</body>
+
+</html>
