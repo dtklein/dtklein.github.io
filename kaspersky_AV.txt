@@ -1,0 +1,38 @@
+Kaspersky Antivirus has been -- until recently -- a top-tier antivirus and endpoint protection (defending laptops, desktops, tablets) solution, widely deployed across corporate, government and non-profit computer networks, with a notable presence in the small-office/home-office space. Kaspersky Antivirus maintains a high detection rate (actually finding viruses and hacker activity), low false positive rate (not flagging legitimate activity as viruses or hacker activity) and moderate system resource utilization (not making your systems unbearably slow). 
+
+In October 2017, Forbes [1] reported that Kaspersky's American business may be at risk of failure in the market, due to substantiated accusations of perfidy and spying. This report by Forbes came in the same month that the New York Times [2] and [3] reported that federal agencies mandated the removal and replacement of Kaspersky Antivirus on all agency systems. 
+
+These moves were taken after the theft of NSA cyberwarfare tools and secret documents appear to have been stolen by spies working for Russia's FSB (the successor to the Soviet KGB), using Kaspersky Antivirus [3]. According to the Wall Street Journal [4], the theft was perpetrated in 2015, and "included details about how the NSA penetrates foreign computer networks, the computer code it uses for such spying and how it defends networks inside the U.S.". 
+
+An intelligence and cybersecurity analyst who publishes under the nom de plume of "Krypt3ia" [5] (warning, the analysis contains some NSFW language) published an analysis in July of 2017 that looked at Eugene Kaspersky's (founder of Kaspersky Labs, maker of Kaspersky Antivirus) ties to -- and training by -- the Russian FSB and the possible impact to the US defense and intelligence communities of betrayal by Kaspersky Antivirus. 
+
+Antivirus is a unique category of software, which deserves extra scrutiny. Firstly, it is relied upon to improve the security posture of a system (and therefore organization). When this trust is abused, the perfidy and betrayal are doubly shocking and abhorrent. Secondly, in order to provide real time protection when potentially malicious programs are downloaded or run, antivirus software must run with very high permissions, enabling it to perform actions that would normally be prevented by operating system protections. As such, the scope of harm that a malicious antivirus system can wreak is greater than a normal program. Lastly, because antivirus software is typically deployed to most or all computer systems within an organization, its reach goes beyond that of a typical departmental, mission-specific or group-specific software. 
+
+Because Kaspersky Antivirus has been used as a weapon against the U.S. and U.S. interests, it is the recommendation of Strategic Digital Defense that U.S. companies and network operators take active steps to remove and replace Kaspersky Antivirus with another solution. Based on the results of Gartner's Magic Quadrant [6] for Endpoint Protection Platforms, Strategic Digital Defense recommends the following solutions: 
+
+ - For systems running Windows 10 Pro, we recommend Microsoft's Windows Defender [7]
+ - For mixed environments running versions of Windows prior to Windows 10 or non-Windows systems that require antivirus, we recommend Trend Micro's Endpoint products [8], Sophos Antivirus [9] [10] or ESET Nod32 [11]
+ - For firms with a large number of endpoints to protect and the staffing to manage and operate a solution of this type, we recommend next generation endpoint threat detection and response, which are able to more effectively detect and remediate previously unseen threats. Two of the leaders in this space are Crowdstrike's Falcon platform [12] and Carbon Black's Cb Defense [13]
+
+Please contact Strategic Digital Defense, LLC at sales@StrategicDigitalDefense.com to discuss your firm's needs and to schedule a consultancy. 
+
+
+
+--
+
+ 1: https://goo.gl/AdUxPE
+ 2: https://goo.gl/rtce6X
+ 3: https://goo.gl/vFstN2
+ 4: https://goo.gl/7WN3Yk
+ 5: https://goo.gl/z4o1MW
+ 6: https://goo.gl/rFpfps
+ 7: https://goo.gl/fBZGBJ
+ 8: https://goo.gl/7sGMjL
+ 9: https://goo.gl/g4PPBl
+10: https://goo.gl/WgiYcR
+11: https://goo.gl/hfFrRc
+12: https://goo.gl/HSHW4G
+13: https://goo.gl/89REow
+
+
+kaspersky_AV: (c) Strategic Digital Defense, LLC, January 2018
