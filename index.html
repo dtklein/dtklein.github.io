@@ -63,10 +63,9 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <script language="text/javascript" type="text/javascript">
         function expose_section(to_show) {
-            var sections = ["index", "services", "about", "leadership", "contact"];
+            var sections = ["index", "services", "about", "leadership", "articles", "contact"];
             sections.forEach(function hide_section(tohide) {
-                document.getElementById(tohide).style.visibility =
-                    "hidden";
+                document.getElementById(tohide).style.visibility = "hidden";
             });
             document.getElementById(to_show).style.visibility = "visible";
         }
@@ -88,6 +87,7 @@
             <a class="section_navigation" href="#" onclick='expose_section("services")'>Services</a>
             <a class="section_navigation" href="#" onclick='expose_section("about")'>About Us</a>
             <a class="section_navigation" href="#" onclick='expose_section("leadership")'>Our Leadership</a>
+            <a class="section_navigation" href="#" onclick='expose_section("articles")'>Articles and Documents</a>
             <a class="section_navigation" href="#" onclick='expose_section("contact")'>Contact Us</a>
         </div>
         <hr />
@@ -132,6 +132,14 @@
             <h2>Contact Us</h2>
             <hr />Contact
             <a href="mailto:sales@StrategicDigitalDefense.com">Sales</a>to engage Strategic Digital Defense, LLC.</div>
+        <div class="disapearing_reapearing" id="articles">
+            <h2>Articles and Documents by Strategic Digital Defense</h2>
+            <ul>
+                <li>
+                    <a href="kaspersky_AV.txt">Briefing memo recommending a migration from a formerly trusted antivirus and endpoint protection platform</a>
+                </li>
+            </ul>
+        </div>
     </div>
     <div id="footer" onload='expose_section("index")'>
         <hr />&copy; 2018, Strategic Digital Defense, LLC
